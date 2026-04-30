@@ -1,0 +1,70 @@
+{
+  "version": "1.0.0",
+  "description": "Structured retrieval index for warm memory docs. Source document body text is unchanged.",
+  "documents": [
+    {
+      "id": "film-current-understanding",
+      "path": "film/记录自己当下对电影的理解.md",
+      "domain": "film",
+      "intents": ["电影观", "观影方法", "艺术与商业平衡", "灰度认知"],
+      "keywords": ["观影五阶段", "主观感受", "客观拆解", "艺术表达", "商业效果", "让子弹飞", "现实主义", "时代镜像"],
+      "query_aliases": ["你怎么看电影", "电影对你意味着什么", "观影标准是什么", "电影和现实关系"]
+    },
+    {
+      "id": "film-what-is-happiness",
+      "path": "film/到底什么是幸福.md",
+      "domain": "film",
+      "intents": ["幸福观", "当下感知", "生活哲学", "反延迟满足焦虑"],
+      "keywords": ["心灵奇旅", "火花", "活在当下", "感受力", "微观幸福", "控制欲望", "观察细节", "幸福能力"],
+      "query_aliases": ["什么是幸福", "如何感受当下", "怎么减少内耗", "如何获得平静"]
+    },
+    {
+      "id": "life-live-in-cognition",
+      "path": "life/我们每个人都活在自己的认知里.md",
+      "domain": "life",
+      "intents": ["认知观", "换位思考", "灰度判断", "减少争论内耗"],
+      "keywords": ["每个人都活在自己的认知里", "换位思考", "灰色地带", "反二元对立", "网络争论", "尊重差异"],
+      "query_aliases": ["如何看待争议", "为什么不要非黑即白", "怎么理解别人", "如何减少网络对线情绪"]
+    },
+    {
+      "id": "life-post-intern-reflection",
+      "path": "life/结束第一份实习后的胡思乱想.md",
+      "domain": "life",
+      "intents": ["阶段复盘", "实习反思", "职业倦怠应对", "幸福西西弗斯"],
+      "keywords": ["实习三阶段", "疲软期", "重复与麻木", "ABC理论", "西西弗斯", "时空恋旅人", "日复一日", "感知训练"],
+      "query_aliases": ["实习后感悟", "如何面对重复工作", "职业倦怠怎么办", "怎么在普通日子里找幸福"]
+    },
+    {
+      "id": "life-history-understanding",
+      "path": "life/记录自己当下对历史的理解.md",
+      "domain": "life",
+      "intents": ["历史观", "宏观与微观", "存在困惑", "长期心智模型"],
+      "keywords": ["历史循环", "阶层分化", "压迫与重构", "虚无主义", "见山三阶段", "宏观宿命", "微观确定性", "内心秩序"],
+      "query_aliases": ["你怎么理解历史", "如何面对宏观无力感", "虚无感怎么处理", "为什么强调微观幸福"]
+    },
+    {
+      "id": "music-wanqing-reflection",
+      "path": "music/听万青有感.md",
+      "domain": "music",
+      "intents": ["专辑观", "音乐分类", "艺术与商业平衡", "反审美霸凌"],
+      "keywords": ["整专聆听", "冀西南林路行", "表达优先", "商业音乐", "功能性音乐", "市场与自我", "方大同", "周杰伦"],
+      "query_aliases": ["为什么要听整张专辑", "怎么评价万青", "音乐里的商业和艺术", "如何看待审美霸凌"]
+    },
+    {
+      "id": "music-200-albums-understanding",
+      "path": "music/听了两百张专辑后，记录自己对音乐的理解.md",
+      "domain": "music",
+      "intents": ["音乐审美框架", "华语乐坛观察", "短视频传播批评", "独立审美"],
+      "keywords": ["200张专辑", "周王陶林方", "欧美是工具", "本土表达", "地域特色", "短视频时代", "被动接收", "主动探索"],
+      "query_aliases": ["你对华语乐坛怎么看", "音乐审美标准", "短视频影响音乐吗", "如何建立音乐判断"]
+    },
+    {
+      "id": "music-film-book-recommendations",
+      "path": "music/影视音作品分享.md",
+      "domain": "music",
+      "intents": ["作品推荐", "审美入口", "跨媒介表达", "个人偏好样本"],
+      "keywords": ["电影推荐", "剧集推荐", "专辑推荐", "书单", "让子弹飞", "范特西", "David Tao", "跨媒介审美"],
+      "query_aliases": ["推荐电影音乐书", "你的审美清单", "入门作品有哪些", "影视音书如何联动理解"]
+    }
+  ]
+}
